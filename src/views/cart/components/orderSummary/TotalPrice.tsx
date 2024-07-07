@@ -3,16 +3,16 @@ export function TotalPrice() {
     <>
       <div className="py-6 space-y-1 border-b-2">
         <div className="flex justify-between">
-          <span className="text-sm font-medium uppercase">Subtotal</span>
-          <span className="text-sm">17,950,000₫</span>
+          <span className="text-base font-medium uppercase">Subtotal</span>
+          <span className="text-base">17,950,000₫</span>
         </div>
         <div className="flex justify-between">
-          <span className="text-sm font-medium uppercase">Discount</span>
-          <span className="text-sm">(0₫)</span>
+          <span className="text-base font-medium uppercase">Discount</span>
+          <span className="text-base">(0)₫</span>
         </div>
         <div className="flex justify-between">
-          <span className="text-sm font-medium uppercase">Shipping</span>
-          <span className="text-sm">Shipping fee</span>
+          <span className="text-base font-medium uppercase">Shipping</span>
+          <span className="text-base">Shipping fee</span>
         </div>
       </div>
 
