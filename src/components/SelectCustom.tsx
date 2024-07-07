@@ -48,7 +48,7 @@ export function SelectCustom(props: SelectCustomProps) {
             className="absolute w-full top-[56px] z-30 bg-white rounded-lg shadow w-60 dark:bg-gray-700"
           >
             <ul
-              className="h-48 py-2 overflow-y-auto text-gray-700 dark:text-gray-200"
+              className="h-48 py-2 overflow-y-auto text-gray-700 dark:text-gray-200 scrollbar"
               aria-labelledby="dropdownUsersButton"
             >
               {options.map((option) => (
